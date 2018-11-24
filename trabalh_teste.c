@@ -197,6 +197,7 @@ void media_registro(){
 	//printf("Insert --> %d\n", insert);
 	float media = (float)cont_resgistro/ (float)insert;
 	printf("%.1f\n", media);
+	fclose(file_p);
 }
 
 int main(){
